@@ -5,11 +5,12 @@ import Chapter2
 
 -- Chooses which chapter to run
 runChapter :: Int -> IO()
-runChapter 2 = putStrLn $ show $ doubleMe 2
+runChapter 2 = chapter2Functions
 
 -- Shrug
 runChapter x = someFunc
 
 
-main :: IO ()
-main = runChapter 2
+main :: IO()
+main = do
+  runChapter 2
