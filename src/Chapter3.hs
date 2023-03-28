@@ -4,7 +4,7 @@ module Chapter3 (
 
 -- Chapter 3: Types and Typeclasses
 chapter3Functions :: IO()
-chapter3Functions = putStrLn $ show $ bfg
+chapter3Functions = putStrLn "aa"
 
 -- ghci> :t 'a'
 --'a' :: Char
