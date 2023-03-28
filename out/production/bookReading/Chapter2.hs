@@ -108,3 +108,15 @@ mod7is3 = [x | x <- [1 .. 100], x `mod` 7 == 3] -- yields [3,10,17,24,31,38,45,5
 
 -- function with list comprehension
 boomBangs xs = [ if x < 10 then "Boom!" else "Bang!" | x <- xs, odd x]
+-- boomBangs [7 .. 13] -> ["Boom!","Boom!","Bang!","Bang!"]
+
+
+--
+-- tuples
+--
+
+-- fst first element in tuple
+
+-- snd second element in tuple
+
+-- zip 
