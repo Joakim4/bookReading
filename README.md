@@ -8,6 +8,5 @@ Chapter 4
     - Pattern matching
 
 Bad
-- Typeclasses
-    - Read
-    - a
+- bytestrings
+- random

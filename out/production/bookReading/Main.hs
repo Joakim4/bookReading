@@ -8,6 +8,8 @@ import Chapter5
 import Chapter6
 import Chapter7  -- Nothing here
 import Chapter8
+import Chapter9
+
 
 -- Chooses which chapter to run
 runChapter :: Int -> IO()
@@ -18,6 +20,7 @@ runChapter 5 = chapter5Functions
 runChapter 6 = chapter6Functions
 runChapter 7 = chapter7Functions
 runChapter 8 = chapter8Functions
+runChapter 9 = chapter9Functions
 -- Shrug
 runChapter x = someFunc
 
